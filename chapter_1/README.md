@@ -136,6 +136,10 @@ X[np.array([0, 2, 4])] # array([51, 14,  0])
 NumPyの配列に対して不等号演算をすると結果は`Boolean`となる。さらにこれを使って`True`に対応する要素のみを抜き出すことも可能。
 
 ```python
-X > 15                 # array([ True,  True, False,  True, False, False], dtype=bool)
-X[X > 15]              # array([51, 55, 19])
+X > 15    # array([ True,  True, False,  True, False, False], dtype=bool)
+X[X > 15] # array([51, 55, 19])
 ```
+
+## Matplotlib
+* `./src/sin_cos.py`: `Matplotlib`でグラフを描画してみる
+* `./src/imshow.py`: `Matplotlib`で画像を表示してみる
